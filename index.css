@@ -15,6 +15,7 @@
      margin: 0;
      padding: 0;
      display: flex;
+     flex-wrap: wrap;
      justify-content: center;
 
  }
@@ -62,6 +63,7 @@
     width: 100%;
     padding: 1.3rem 0;
     border: 1px solid lightgray;
+    margin: 5px;
 
 }
 
@@ -186,6 +188,35 @@
     
 }
 
+.instagram-options ul{
+    display: flex;
+    justify-content: center;
+    padding: auto;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+.instagram-options li{
+    color: rgb(160, 160, 160);
+    padding: 3px;
+
+}
+
+.instagram-information {
+    color: rgb(160, 160, 160);
+    margin-top: 20px;
+    margin-bottom: 100px;
+
+}
+
+.instagram-information select{
+    color: rgb(160, 160, 160);
+    border-color: rgb(160, 160, 160);
+    border-style: none;
+
+}
+
 .app-download:nth-child(1){
     background-image: url('imagens/logo-applestore.png');
 
@@ -229,6 +260,11 @@
 
     .instagram-continue{
         width: 50%;
+
+    }
+
+    .instagram-options{
+        display: none;
 
     }
 }
